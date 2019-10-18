@@ -29,7 +29,7 @@ The Game Over display has a restart button which returns players to the Starting
 
 ## The Bot (Inoperational):
 
-An attempt was made to create a Tic Tac Toe from from scratch without looking at potential solution.
+An attempt was made to create a Tic Tac Toe from from scratch without looking at potential solution. (<--This was a mistake>)
 
 At the start of a game the bot generates all possible outcomes following the first move.
 
