@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="startPage">
+        <header class="startPageHeader">
+            <h1>TIC TAC TOE</h1>
+        </header>
+
+        <div class="startPageInputArea">
+
+            <div class="playerOneSection playerSection">
+                <h2>Player 1:</h2>
+                <input class="playerOneName" type="text" placeholder="Name">
+                <input class="playerOneColor" type="text" placeholder="Color">
+            </div>
+
+            <div class="playerTwoSection playerSection">
+                <h2>Player 2:</h2>
+                <input class="playerTwoName" type="text" placeholder="Name">
+                <input class="playerTwoColor" type="text" placeholder="Color">
+                <button class="addBot" disabled>Add Bot</button>
+            </div>
+
+        </div>
+        <button class="startGameButton">New Game</button>
+    </div>
+    <div class="mainScreen">
+        <aside class="leftPlayerColumn playerColumn">
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis ea, possimus ducimus eligendi eum
+                quo
+                explicabo nam error perspiciatis sequi nemo soluta eius aspernatur nesciunt. Dolores quidem maiores
+                mollitia
+                suscipit.</h2>
+
+        </aside>
+        <main class="playableBoard">
+
+        </main>
+        <aside class="rightPlayerColumn playerColumn">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempora dicta praesentium, voluptatem
+                suscipit sequi, cupiditate tempore necessitatibus, autem quia veritatis eos ipsam soluta consequuntur
+                modi
+                quae nihil obcaecati placeat.</h2>
+        </aside>
+    </div>
+    <div class="blocker">
+
+        <h2 class="endGameScreenMessage">"x" player has won!</h2>
+        <button class="restartGameButton">Restart</button>
+    </div>
+
+    <script src="sceneManager.js"></script>
+    <script src="storageManager.js"></script>
+    <script src="gameManager.js"></script>
+    <script src="ticTacTobot.js"></script>
+</body>
+
+</html>
