@@ -21,15 +21,12 @@ class possibleGame {
     }
 }
 
-let temp = generateBotGrid(3);
+// let temp = generateBotGrid(3);
 
 function botPlay(playerMovedXCoord = -1, playerMovedYCoord = -1) {
 
     lastMove = [];
-
     lastMove.push(Number(playerMovedXCoord), Number(playerMovedYCoord));
-
-
     if (!isSetupDone) {
         runIt();
         if (turnsPlayed === 0) {
@@ -51,10 +48,7 @@ function botPlay(playerMovedXCoord = -1, playerMovedYCoord = -1) {
     lastMove = [];
     lastMove = nextMove.slice();
 
-
-
     cleanUpArrays();
-
     lastMove = [];
 
 }
